@@ -1,0 +1,18 @@
+[
+  {
+    "SceneImage": "basketball_net.jpg",
+    "Object": "Ball"
+  },
+  {
+    "SceneImage": "bell.jpg",
+    "Object": "Bowl"
+  },
+  {
+    "SceneImage": "bin.jpg",
+    "Object": "Ottoman"
+  },
+  {
+    "SceneImage": "blender.jpg",
+    "Object": "Frying pan"
+  }
+]
