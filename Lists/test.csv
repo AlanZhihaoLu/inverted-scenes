@@ -1,5 +1,5 @@
-﻿SceneImage,Object
-basketball_net.jpg,Ball
-bell.jpg,Bowl
-bin.jpg,Ottoman
-blender.jpg,Frying pan
+﻿SceneImage,Object,Inverted,Consistent
+basketball_net.jpg,Ball,Yes,Yes
+bell.jpg,Printer,Yes,No
+bin.jpg,Ottoman,No,Yes
+blender.jpg,Tree,No,No
