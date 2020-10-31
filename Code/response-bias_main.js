@@ -154,3 +154,7 @@ var end_note = {
     stimulus: "<p>You have completed the experiment. Thank you!</p>"
 }
 timeline.push(end_note);
+
+var images = ['https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png', 
+"https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/basketball_net.jpg",
+test_stimuli.map(a => `https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/${a.SceneImage}`)]
