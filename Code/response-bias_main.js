@@ -4,7 +4,8 @@ var welcome = {
     type: "html-keyboard-response",
     stimulus: "<h3>Welcome to the experiment!</h3>" + 
     "<p>We thank you for your participation.</p>" +
-    "<p><em>Press any key to start.</em></p>"
+    "<p><em>Press any key to start.</em></p>",
+    data: {component: 'welcome'}
 };
 timeline.push(welcome);
 
@@ -12,7 +13,8 @@ var introduction = {
     type: "html-keyboard-response",
     stimulus: "<p>In this experiment, you will be answering questions on briefly presented scene images.</p>" +
     "<p>First, let's first run through an example practice trial.</p>" +
-    "<p><em>Press any key to continue.</em></p>"
+    "<p><em>Press any key to continue.</em></p>",
+    data: {component: 'introduction'}
 }
 timeline.push(introduction);
 
@@ -21,7 +23,8 @@ var instr_fixation = {
     stimulus: "<p>(1) First, you will see a fixation cross, which looks like this:</p>" +
     '<div style="font-size:60px;">+</div>' + 
     "<p>Please keep your eyes on it while it's there!</p>" +
-    '<p><em>Press any key to continue.</em></p>'
+    '<p><em>Press any key to continue.</em></p>',
+    data: {component: 'instr_fixation'}
 }
 var instr_scene_image = {
     type: "html-keyboard-response",
@@ -36,7 +39,8 @@ var instr_scene_image = {
         '" width="500" height=auto>' +
         '<p><em>Press any key to continue.</em></p>'
     return html
-    }
+    },
+    data: {component: 'instr_scene_image', SceneImage: jsPsych.timelineVariable('SceneImage')}
 }
 var instr_scene_image_inverted = {
     type: "html-keyboard-response",
@@ -50,13 +54,15 @@ var instr_scene_image_inverted = {
         '" width="500" height=auto>' +
         '<p><em>Press any key to continue.</em></p>'
     return html
-    }
+    },
+    data: {component: 'instr_scene_image_inverted', SceneImage: jsPsych.timelineVariable('SceneImage')}
 }
 var instr_mask = {
     type: "html-keyboard-response",
     stimulus: '<p>(3) After that, you will see a noisy "pattern" flash on the screen, like this:</p>' + 
         `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">` +
-        '<p><em>Press any key to continue.</em></p>'
+        '<p><em>Press any key to continue.</em></p>',
+    data: {component: 'instr_mask'}
 }
 var instr_question = {
     type: 'html-keyboard-response',
@@ -72,12 +78,14 @@ var instr_question = {
         return html
     },
     choices: ['1', '2'],
+    data: {component: 'instr_question', Object: jsPsych.timelineVariable('Object')}
 }
 var instr_end = {
     type: "html-keyboard-response",
     stimulus: "<p>Great!</p>" +
     "<p>Now let's see what it looks like all put together!</p>" +
-    '<p><em>Press any key to continue.</em></p>'
+    '<p><em>Press any key to continue.</em></p>',
+    data: {component: 'instr_end'}
 };
 var instructions = {
     timeline: [instr_fixation, instr_scene_image, instr_scene_image_inverted, instr_mask, instr_question, instr_end],
@@ -90,7 +98,7 @@ var fixation = {
     stimulus: '<div style="font-size:60px;">+</div>',
     choices: jsPsych.NO_KEYS,
     trial_duration: 2000,
-    data: {test_part: 'fixation'}
+    data: {component: 'fixation'}
 }
 var scene_image = {
     type: "html-keyboard-response",
@@ -108,12 +116,20 @@ var scene_image = {
     trial_duration: function(){
     return jsPsych.randomization.sampleWithoutReplacement([25, 40, 50, 60, 80, 100, 150], 1)[0];
     },
+    data: {
+        component: 'scene_image',
+        SceneImage: jsPsych.timelineVariable('SceneImage'),
+        Object: jsPsych.timelineVariable('Object'),
+        Inverted: jsPsych.timelineVariable('Inverted'),
+        Consistent: jsPsych.timelineVariable('Consistent')
+    }
 }
 var mask = {
     type: "html-keyboard-response",
     stimulus: `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">`,
     choices: jsPsych.NO_KEYS,
-    trial_duration: 50
+    trial_duration: 50,
+    data: {component: 'mask'}
 }
 var question = {
     type: 'html-keyboard-response',
@@ -123,6 +139,16 @@ var question = {
         return html
     },
     choices: ['1', '2'],
+    data: {
+        component: 'question',
+        SceneImage: jsPsych.timelineVariable('SceneImage'),
+        Object: jsPsych.timelineVariable('Object'),
+        Inverted: jsPsych.timelineVariable('Inverted'),
+        Consistent: jsPsych.timelineVariable('Consistent')
+    },
+    on_finish: function(data){
+        data.response = jsPsych.pluginAPI.convertKeyCodeToKeyCharacter(data.key_press)
+    }
 }
 var example_trial = {
     timeline: [fixation, scene_image, mask, question],
@@ -135,13 +161,15 @@ var practice_end = {
     stimulus: "<p>How was that?</p>" +
     "<p>As you can see, each trial is pretty short.</p>" +
     "<p>Try not to lose focus, and answer as best as you can throughout the experiment.</p>" +
-    '<p><em>Press any key to continue.</em></p>'
+    '<p><em>Press any key to continue.</em></p>',
+    data: {component: 'practice_end'}
 }
 timeline.push(practice_end);
 
 var start_note = {
     type: "html-keyboard-response",
-    stimulus: "<p>We will now begin the experiment.</p>" + "<p><em>Press any key to start.</em></p>"
+    stimulus: "<p>We will now begin the experiment.</p>" + "<p><em>Press any key to start.</em></p>",
+    data: {component: 'start_note'}
 }
 timeline.push(start_note);
 
@@ -153,7 +181,8 @@ timeline.push(procedure);
 
 var end_note = {
     type: "html-keyboard-response",
-    stimulus: "<p>You have completed the experiment. Thank you!</p>"
+    stimulus: "<p>You have completed the experiment. Thank you!</p>",
+    data: {component: 'end_note'}
 }
 timeline.push(end_note);
 
