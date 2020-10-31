@@ -2,7 +2,9 @@ var timeline = [];
 
 var welcome = {
     type: "html-keyboard-response",
-    stimulus: "<h3>Welcome to the experiment!</h3>"
+    stimulus: "<h3>Welcome to the experiment!</h3>" + 
+    "<p>We thank you for your participation.</p>" +
+    "<p><em>Press any key to start.</em></p>"
 };
 timeline.push(welcome);
 
