@@ -63,7 +63,7 @@ var instr_question = {
         "Please use your keyboard to answer whether the object was present in the scene image shown in (2).<br>" + 
         'If you think the object was present in the scene image, press "1".<br>' +
         'Otherwise, if you think the object was not present in the scene image, press "2".<br>' +
-        "Don't worry if you weren't able to tell for sure! Just make your best guess.</p><br>" +
+        "Don't worry if you aren't able to tell for sure! Just make your best guess.</p><br>" +
         '<h1>' + jsPsych.timelineVariable('Object', true) + '</h1><br><br>' +
         '<h3>"yes" or "no"<br>1 &nbsp; &nbsp; or &nbsp; &nbsp;2</h3><br><br>' +
         '<p><em>Press "1" or "2" to continue.</em></p>'

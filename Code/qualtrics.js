@@ -25,6 +25,7 @@ Qualtrics.SurveyEngine.addOnload(function()
             if ((idx + 1) < requiredResources.length) {
                 loadScript(idx + 1);
             } else {
+                console.log(this)
                 initExp();
             }
         });
