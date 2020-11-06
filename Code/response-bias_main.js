@@ -236,7 +236,7 @@ test_stimuli.map(a => `https://alanzhihaolu.github.io/inverted-scenes/Images/Sce
 
 function save_data_json() {
     data = jsPsych.data.get().filter({practice: "No"}).json();
-    fetch('http://localhost:3000/rb01', { 
+    fetch('https://inverted-scenes-rb01.herokuapp.com/rb01', { 
         method: 'post',
         headers: {'Content-Type': 'application/json'}, 
         body: JSON.stringify({ 
