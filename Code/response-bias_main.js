@@ -185,7 +185,7 @@ var question = {
         })
     },
     on_finish: function(data){
-        data.response = jsPsych.pluginAPI.convertKeyCodeToKeyCharacter(data.key_press)
+        data.response = (jsPsych.pluginAPI.convertKeyCodeToKeyCharacter(data.key_press)==="1")?"Yes":"No";
     }
 }
 var example_trial = {
