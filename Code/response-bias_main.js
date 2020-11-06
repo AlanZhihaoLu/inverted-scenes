@@ -172,7 +172,7 @@ var question = {
 }
 var example_trial = {
     timeline: [fixation, scene_image, mask, question],
-    timeline_variables: [{SceneImage: "basketball_net.jpg", Object: "Microwave", Inverted: "No", Consistent: "Yes", practice: "Yes"}]
+    timeline_variables: [{SceneImage: "basketball_net.jpg", Object: "Microwave", Inverted: "No", Consistent: "Yes", Duration: 80, practice: "Yes"}]
 }
 timeline.push(example_trial);
 
