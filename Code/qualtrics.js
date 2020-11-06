@@ -45,6 +45,7 @@ Qualtrics.SurveyEngine.addOnload(function()
 
             /* Change 6: Adding the clean up and continue functions.*/
             on_finish: function (data) {
+                save_data_json();
                 // clear the stage
                 jQuery('#display_stage').remove();
                 jQuery('#display_stage_background').remove();
