@@ -37,6 +37,7 @@ Qualtrics.SurveyEngine.addOnload(function()
     // jQuery is loaded in Qualtrics by default
     jQuery("<div id = 'display_stage_background'></div>").appendTo('body');
     jQuery("<div id = 'display_stage'></div>").appendTo('body');
+    var sbj_id = "${e://Field/workerId}";
     function initExp() {
         jsPsych.init({
             timeline: timeline,
@@ -45,6 +46,7 @@ Qualtrics.SurveyEngine.addOnload(function()
 
             /* Change 6: Adding the clean up and continue functions.*/
             on_finish: function (data) {
+                jsPsych.data.addProperties({sbj_id: sbj_id});
                 save_data_json();
                 // clear the stage
                 jQuery('#display_stage').remove();

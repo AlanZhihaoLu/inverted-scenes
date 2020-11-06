@@ -1,5 +1,3 @@
-var sbj_id = "${e://Field/id}";
-
 var timeline = [];
 
 var welcome = {
@@ -8,8 +6,7 @@ var welcome = {
     "<p>We thank you for your participation.</p>" +
     "<p><em>Press any key to start.</em></p>",
     data: {
-        on_screen: 'welcome', 
-        sbj_id: sbj_id
+        on_screen: 'welcome'
     }
 };
 timeline.push(welcome);
@@ -20,8 +17,7 @@ var introduction = {
     "<p>First, let's first run through an example practice trial.</p>" +
     "<p><em>Press any key to continue.</em></p>",
     data: {
-        on_screen: 'introduction', 
-        sbj_id: sbj_id
+        on_screen: 'introduction'
     }
 }
 timeline.push(introduction);
@@ -33,8 +29,7 @@ var instr_fixation = {
     "<p>Please keep your eyes on it while it's there!</p>" +
     '<p><em>Press any key to continue.</em></p>',
     data: {
-        on_screen: 'instr_fixation', 
-        sbj_id: sbj_id
+        on_screen: 'instr_fixation'
     }
 }
 var instr_scene_image = {
@@ -52,8 +47,7 @@ var instr_scene_image = {
     return html
     },
     data: {on_screen: 'instr_scene_image', 
-        SceneImage: jsPsych.timelineVariable('SceneImage'), 
-        sbj_id: sbj_id
+        SceneImage: jsPsych.timelineVariable('SceneImage')
     }
 }
 var instr_scene_image_inverted = {
@@ -71,8 +65,7 @@ var instr_scene_image_inverted = {
     },
     data: {
         on_screen: 'instr_scene_image_inverted', 
-        SceneImage: jsPsych.timelineVariable('SceneImage'), 
-        sbj_id: sbj_id
+        SceneImage: jsPsych.timelineVariable('SceneImage')
     }
 }
 var instr_mask = {
@@ -81,8 +74,7 @@ var instr_mask = {
         `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">` +
         '<p><em>Press any key to continue.</em></p>',
     data: {
-        on_screen: 'instr_mask', 
-        sbj_id: sbj_id
+        on_screen: 'instr_mask'
     }
 }
 var instr_question = {
@@ -101,8 +93,7 @@ var instr_question = {
     choices: ['1', '2'],
     data: {
         on_screen: 'instr_question', 
-        Object: jsPsych.timelineVariable('Object'), 
-        sbj_id: sbj_id
+        Object: jsPsych.timelineVariable('Object')
     }
 }
 var instr_end = {
@@ -111,8 +102,7 @@ var instr_end = {
     "<p>Now let's see what it looks like all put together!</p>" +
     '<p><em>Press any key to continue.</em></p>',
     data: {
-        on_screen: 'instr_end', 
-        sbj_id: sbj_id
+        on_screen: 'instr_end'
     }
 };
 var instructions = {
@@ -130,8 +120,7 @@ var fixation = {
         return ({
             on_screen: 'fixation',
             practice: (jsPsych.timelineVariable('practice',true)==="Yes")?'Yes':'No',
-            exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_fixation':'main_trial_fixation', 
-            sbj_id: sbj_id
+            exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_fixation':'main_trial_fixation'
         })
     }
 }
@@ -158,8 +147,7 @@ var scene_image = {
           Object: jsPsych.timelineVariable('Object'),
           Inverted: jsPsych.timelineVariable('Inverted'),
           Consistent: jsPsych.timelineVariable('Consistent'),
-          Duration: jsPsych.timelineVariable('Duration'), 
-          sbj_id: sbj_id
+          Duration: jsPsych.timelineVariable('Duration')
         })
     }
 }
@@ -172,8 +160,7 @@ var mask = {
         return ({
           on_screen: 'mask',
           practice: (jsPsych.timelineVariable('practice',true)==="Yes")?'Yes':'No',
-          exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_mask':'main_trial_mask', 
-          sbj_id: sbj_id
+          exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_mask':'main_trial_mask'
         })
     }
 }
@@ -194,8 +181,7 @@ var question = {
           Object: jsPsych.timelineVariable('Object'),
           Inverted: jsPsych.timelineVariable('Inverted'),
           Consistent: jsPsych.timelineVariable('Consistent'),
-          Duration: jsPsych.timelineVariable('Duration'), 
-          sbj_id: sbj_id
+          Duration: jsPsych.timelineVariable('Duration')
         })
     },
     on_finish: function(data){
@@ -215,8 +201,7 @@ var practice_end = {
     "<p>Try not to lose focus, and answer as best as you can throughout the experiment.</p>" +
     '<p><em>Press any key to continue.</em></p>',
     data: {
-        on_screen: 'practice_end', 
-        sbj_id: sbj_id
+        on_screen: 'practice_end'
     }
 }
 timeline.push(practice_end);
@@ -225,8 +210,7 @@ var start_note = {
     type: "html-keyboard-response",
     stimulus: "<p>We will now begin the experiment.</p>" + "<p><em>Press any key to start.</em></p>",
     data: {
-        on_screen: 'start_note', 
-        sbj_id: sbj_id
+        on_screen: 'start_note'
     }
 }
 timeline.push(start_note);
@@ -241,8 +225,7 @@ var end_note = {
     type: "html-keyboard-response",
     stimulus: "<p>You have completed the experiment. Thank you!</p>",
     data: {
-        on_screen: 'end_note', 
-        sbj_id: sbj_id
+        on_screen: 'end_note'
     }
 }
 timeline.push(end_note);
