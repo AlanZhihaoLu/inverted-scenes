@@ -198,7 +198,8 @@ var practice_end = {
     type: "html-keyboard-response",
     stimulus: "<p>How was that?</p>" +
     "<p>As you can see, each trial is pretty short.</p>" +
-    "<p>Try not to lose focus, and answer as best as you can throughout the experiment.</p>" +
+    "<p>Try not to lose focus, and please answer as accurately and as quickly as you can throughout the experiment.</p>" +
+    "<p>Please note that, although speed is valued, <b>accuracy is most important.</b></p>" +
     '<p><em>Press any key to continue.</em></p>',
     data: {
         on_screen: 'practice_end'
