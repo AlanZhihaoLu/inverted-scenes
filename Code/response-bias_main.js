@@ -45,7 +45,7 @@ var instr_scene_image = {
     var inverted = (jsPsych.timelineVariable('Inverted', true) === "Yes") ? 'style="transform: scaleY(-1);"' : '';
     var scene_image = jsPsych.timelineVariable('SceneImage', true);
     var html = '<p>(2) Next, a scene image will briefly appear in the center of the screen, like this one.</p>' +
-        '<img ' + inverted + ' src="https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/' + 
+        '<img ' + inverted + ' src="https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/' + 
         scene_image + 
         '" alt="' + 
         scene_image + 
@@ -63,7 +63,7 @@ var instr_scene_image_inverted = {
     stimulus: function(){
     var scene_image = jsPsych.timelineVariable('SceneImage', true);
     var html = '<p>(2, continued) They will also sometimes appear upside-down, like this:</p>' +
-        '<img style="transform: scaleY(-1);" src="https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/' + 
+        '<img style="transform: scaleY(-1);" src="https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/' + 
         scene_image + 
         '" alt="' + 
         scene_image + 
@@ -80,7 +80,7 @@ var instr_scene_image_inverted = {
 var instr_mask = {
     type: "html-keyboard-response",
     stimulus: '<p>(3) After that, you will see a noisy "pattern" flash on the screen, like this:</p>' + 
-        `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">` +
+        `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.png" alt="Noise Mask" width="500" height="375">` +
         '<p><em>Press "9" to continue.</em></p>',
     choices: ['9'],
     data: {
@@ -139,7 +139,7 @@ var scene_image = {
     stimulus: function(){
     var inverted = (jsPsych.timelineVariable('Inverted', true) === "Yes") ? 'style="transform: scaleY(-1);"' : '';
     var scene_image = jsPsych.timelineVariable('SceneImage', true)
-    var html = '<img ' + inverted + ' src="https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/' + 
+    var html = '<img ' + inverted + ' src="https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/' + 
         scene_image + 
         '" alt="' + 
         scene_image + 
@@ -163,7 +163,7 @@ var scene_image = {
 }
 var mask = {
     type: "html-keyboard-response",
-    stimulus: `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">`,
+    stimulus: `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.png" alt="Noise Mask" width="500" height="375">`,
     choices: jsPsych.NO_KEYS,
     trial_duration: 50,
     data: function(){
@@ -242,9 +242,9 @@ var end_note = {
 }
 timeline.push(end_note);
 
-var images = ['https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png', 
-"https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/basketball_net.jpg",
-test_stimuli.map(a => `https://alanzhihaolu.github.io/inverted-scenes/Images/SceneImages/${a.SceneImage}`)]
+var images = ['https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.png', 
+"https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/coffeemaker.jpg",
+test_stimuli.map(a => `https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/${a.SceneImage}`)]
 
 function save_data_json() {
     data = jsPsych.data.get().filter({practice: "No"}).json();
