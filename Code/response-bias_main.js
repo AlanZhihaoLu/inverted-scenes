@@ -80,7 +80,7 @@ var instr_scene_image_inverted = {
 var instr_mask = {
     type: "html-keyboard-response",
     stimulus: '<p>(3) After that, you will see a noisy "pattern" flash on the screen, like this:</p>' + 
-        `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg" alt="Noise Mask" width="500" height="375">` +
+        `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg" alt="Noise Mask" width="500" height=auto>` +
         '<p><em>Press "9" to continue.</em></p>',
     choices: ['9'],
     data: {
@@ -163,7 +163,7 @@ var scene_image = {
 }
 var mask = {
     type: "html-keyboard-response",
-    stimulus: `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg" alt="Noise Mask" width="500" height="375">`,
+    stimulus: `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg" alt="Noise Mask" width="500" height=auto>`,
     choices: jsPsych.NO_KEYS,
     trial_duration: 50,
     data: function(){
