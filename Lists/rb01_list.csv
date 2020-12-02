@@ -1,15 +1,15 @@
 SceneImage,Object,Basic,Superordinate,Supersuperordinate
-basketball_net.jpg,Public Trash Can,Playground,Human,Outdoors
+basketball_net.jpg,Bench,Playground,Human,Outdoors
 bathroom2.jpg,Shower Head,Bathroom,Private,Indoors
 bathroom3.jpg,Toilet Paper,Bathroom,Private,Indoors
 bathroom4.jpg,Razor,Bathroom,Private,Indoors
 bathroom6.jpg,Plunger,Bathroom,Private,Indoors
 bathroom7.jpg,Soap Bar,Bathroom,Private,Indoors
 bedroom11.jpg,Nightstand,Bedroom,Private,Indoors
-bedroom12.jpg,Drawer,Bedroom,Private,Indoors
-bedroom13.jpg,Bedside Table Lamp,Bedroom,Private,Indoors
+bedroom12.jpg,Dresser,Bedroom,Private,Indoors
+bedroom13.jpg,Laundry Hamper,Bedroom,Private,Indoors
 bedroom5.jpg,Alarm Clock,Bedroom,Private,Indoors
-bedroom9.jpg,Laundry Hamper,Bedroom,Private,Indoors
+bedroom14.jpg,Comforter Blanket,Bedroom,Private,Indoors
 bell.jpg,Coffee Maker,Living Room,Private,Indoors
 bin.jpg,Rocking Chair,Living Room,Private,Indoors
 blender.jpg,Pan,Kitchen,Private,Indoors
@@ -17,9 +17,9 @@ brick_apartment.png,Bird Bath,Suburban,Human,Outdoors
 briefcase.jpg,Printer,Office,Public,Indoors
 bust.jpg,TV Remote,Living Room,Private,Indoors
 child_bedroom.png,Teddy Bear,Bedroom,Private,Indoors
-citycenter10.jpg,City Fountain,City Center,Human,Outdoors
-citycenter11.jpg,Bench,City Center,Human,Outdoors
-citycenter12.jpg,Historical Plaque,City Center,Human,Outdoors
+citycenter10.jpg,Souvenir Stand,City Center,Human,Outdoors
+citycenter11.jpg,Horse Carriage,City Center,Human,Outdoors
+citycenter12.jpg,Historic Plaque,City Center,Human,Outdoors
 citycenter2.jpg,Taxi,City Center,Human,Outdoors
 citycenter26.jpg,Sculpture,City Center,Human,Outdoors
 class11.jpg,Backpack,Classroom,Public,Indoors
@@ -42,7 +42,7 @@ conference7.jpg,Projector,Conference Room,Public,Indoors
 corridor1.jpg,Drinking Fountain,Corridor,Public,Indoors
 corridor2.jpg,Bathroom Sign,Corridor,Public,Indoors
 corridor3.jpg,Fire Extinguisher,Corridor,Public,Indoors
-corridor4.jpg,Building Exit Sign,Corridor,Public,Indoors
+corridor4.jpg,Exit Sign,Corridor,Public,Indoors
 corridor5.jpg,Fire Alarm,Corridor,Public,Indoors
 dining3.jpg,Plate,Dining Room,Private,Indoors
 dining5.jpg,Bowl,Dining Room,Private,Indoors
@@ -62,14 +62,14 @@ forest1.jpg,Toadstool Mushroom,Forest,Natural,Outdoors
 forest14.jpg,Camping Tent,Forest,Natural,Outdoors
 forest11.jpg,Log Cabin,Forest,Natural,Outdoors
 forest2.jpg,Bird Nest,Forest,Natural,Outdoors
-forest9.jpg,Wood-Splitting Axe,Forest,Natural,Outdoors
+forest9.jpg,Axe,Forest,Natural,Outdoors
 fruit_bowl.jpg,Blender,Kitchen,Private,Indoors
 glass.jpg,Toaster,Kitchen,Private,Indoors
 highway10.jpg,Billboard,Highway,Human,Outdoors
-highway12.jpg,Bus,Highway,Human,Outdoors
-highway6.jpg,Road Work Sign,Highway,Human,Outdoors
-highway8.jpg,Speed Limit Sign,Highway,Human,Outdoors
-highway9.jpg,Highway Exit Sign,Highway,Human,Outdoors
+highway12.jpg,Motorcycle,Highway,Human,Outdoors
+highway6.jpg,Speed Limit Sign,Highway,Human,Outdoors
+highway8.jpg,Yield Sign,Highway,Human,Outdoors
+highway9.jpg,Road Work Sign,Highway,Human,Outdoors
 kitchen10.jpg,Rolling Pin,Kitchen,Private,Indoors
 kitchen13.jpg,Stand Mixer,Kitchen,Private,Indoors
 kitchen15.jpg,Apron,Kitchen,Private,Indoors
@@ -115,8 +115,8 @@ Urban_Image_08.jpg,Traffic Light,Suburban,Human,Outdoors
 Urban10.jpg,Bicycle,Suburban,Human,Outdoors
 Urban14.jpg,Parking Meter,Suburban,Human,Outdoors
 urbanstreet1.jpg,Newspaper Box,Urban Street,Human,Outdoors
-urbanstreet12.jpg,Mail Collection Box,Urban Street,Human,Outdoors
+urbanstreet12.jpg,Telephone Booth,Urban Street,Human,Outdoors
 urbanstreet19.jpg,Subway Station Sign,Urban Street,Human,Outdoors
-urbanstreet28.jpg,Pedestrian Crosswalk Signal,Urban Street,Human,Outdoors
+urbanstreet28.jpg,Crosswalk Signal,Urban Street,Human,Outdoors
 urbanstreet30.jpg,Bus Stop Shelter,Urban Street,Human,Outdoors
 wood_kitchen.png,Broom,Kitchen,Private,Indoors

@@ -1,26 +1,26 @@
 raw_stimuli = [
   {
     "SceneImage": "basketball_net.jpg",
-    "Object": "Lifeguard Tower",
+    "Object": "Fishing Rod",
     "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "bathroom2.jpg",
+    "Object": "Flag Pole",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 100
   },
   {
-    "SceneImage": "bathroom2.jpg",
-    "Object": "Wildflower",
+    "SceneImage": "bathroom3.jpg",
+    "Object": "Radio Tower",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "bathroom3.jpg",
-    "Object": "Toilet Paper",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
+    "Inverted": "No",
     "Duration": 150
   },
   {
@@ -28,8 +28,8 @@ raw_stimuli = [
     "Object": "Razor",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 150
+    "Inverted": "No",
+    "Duration": 50
   },
   {
     "SceneImage": "bathroom6.jpg",
@@ -37,31 +37,31 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 150
+    "Duration": 50
   },
   {
     "SceneImage": "bathroom7.jpg",
     "Object": "Soap Bar",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "bedroom11.jpg",
-    "Object": "Nightstand",
+    "Object": "Paper Shredder",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 100
+  },
+  {
+    "SceneImage": "bedroom12.jpg",
+    "Object": "Dresser",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
     "Duration": 150
-  },
-  {
-    "SceneImage": "bedroom12.jpg",
-    "Object": "Highway Exit Sign",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 50
   },
   {
     "SceneImage": "bedroom13.jpg",
@@ -69,47 +69,47 @@ raw_stimuli = [
     "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 150
+  },
+  {
+    "SceneImage": "bedroom14.jpg",
+    "Object": "Drinking Fountain",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "bedroom5.jpg",
-    "Object": "Projector",
+    "Object": "Oven Mitts",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "bell.jpg",
+    "Object": "Razor",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "bin.jpg",
+    "Object": "Plunger",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
   {
-    "SceneImage": "bedroom9.jpg",
-    "Object": "Laundry Hamper",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "bell.jpg",
-    "Object": "Seesaw",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "bin.jpg",
-    "Object": "Bus",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 150
-  },
-  {
     "SceneImage": "blender.jpg",
-    "Object": "Pan",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 150
+    "Object": "Rock",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 50
   },
   {
     "SceneImage": "brick_apartment.png",
@@ -117,23 +117,23 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 150
   },
   {
     "SceneImage": "briefcase.jpg",
-    "Object": "Picnic Table",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
+    "Object": "Printer",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
     "Duration": 150
   },
   {
     "SceneImage": "bust.jpg",
-    "Object": "Stop Sign",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 50
+    "Object": "TV Remote",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
+    "Duration": 100
   },
   {
     "SceneImage": "child_bedroom.png",
@@ -145,90 +145,90 @@ raw_stimuli = [
   },
   {
     "SceneImage": "citycenter10.jpg",
-    "Object": "City Fountain",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Textbook",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
-    "Duration": 100
+    "Duration": 50
   },
   {
     "SceneImage": "citycenter11.jpg",
-    "Object": "Camping Tent",
-    "consistency_category": "basic",
+    "Object": "Toaster",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "citycenter12.jpg",
-    "Object": "Historical Plaque",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
     "Inverted": "Yes",
     "Duration": 100
   },
   {
-    "SceneImage": "citycenter2.jpg",
-    "Object": "Calculator",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "citycenter26.jpg",
-    "Object": "Picture Frame",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
+    "SceneImage": "citycenter12.jpg",
+    "Object": "Historic Plaque",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "No",
     "Duration": 50
   },
   {
-    "SceneImage": "class11.jpg",
-    "Object": "Backpack",
+    "SceneImage": "citycenter2.jpg",
+    "Object": "Taxi",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "citycenter26.jpg",
+    "Object": "Sculpture",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 100
+  },
+  {
+    "SceneImage": "class11.jpg",
+    "Object": "Spoon",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
   {
     "SceneImage": "class3.jpg",
-    "Object": "Notebook",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "class6.jpg",
-    "Object": "Surfboard",
+    "Object": "Stop Sign",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "class6.jpg",
+    "Object": "Textbook",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
     "Duration": 100
   },
   {
     "SceneImage": "class8.jpg",
-    "Object": "Toilet Paper",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
+    "Object": "Pencil Case",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
     "Duration": 100
   },
   {
     "SceneImage": "class9.jpg",
-    "Object": "Toothpaste",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Object": "Crayons",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "clock.jpg",
     "Object": "Stop Sign",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
+    "Inverted": "No",
     "Duration": 150
   },
   {
@@ -236,7 +236,7 @@ raw_stimuli = [
     "Object": "Surfboard",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
+    "Inverted": "Yes",
     "Duration": 150
   },
   {
@@ -249,48 +249,48 @@ raw_stimuli = [
   },
   {
     "SceneImage": "coast3.jpg",
-    "Object": "Vase",
+    "Object": "Bathroom Sign",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 150
+    "Inverted": "Yes",
+    "Duration": 100
   },
   {
     "SceneImage": "coast7.jpg",
-    "Object": "Beach Towel",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
+    "Object": "Pencil Case",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
     "Duration": 50
   },
   {
     "SceneImage": "coast8.jpg",
-    "Object": "Trash Bags",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
+    "Object": "Buoy",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 150
+    "Duration": 100
   },
   {
     "SceneImage": "conference1.jpg",
-    "Object": "Plunger",
-    "consistency_category": "basic",
+    "Object": "Farmhouse",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
   {
     "SceneImage": "conference3.jpg",
-    "Object": "Phone Set",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Object": "Lifeguard Tower",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "conference5.jpg",
-    "Object": "Fire Hydrant",
-    "consistency_category": "super",
+    "Object": "Apron",
+    "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
     "Duration": 100
@@ -301,13 +301,13 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 100
+    "Duration": 50
   },
   {
     "SceneImage": "conference8.jpg",
-    "Object": "Projector Screen",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Swing Set",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
@@ -317,7 +317,7 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 100
   },
   {
     "SceneImage": "corridor2.jpg",
@@ -325,35 +325,35 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 50
+    "Duration": 150
   },
   {
     "SceneImage": "corridor3.jpg",
-    "Object": "Soap Bar",
+    "Object": "Stand Mixer",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "corridor4.jpg",
-    "Object": "Bus Stop Shelter",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
+    "Object": "Exit Sign",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "No",
     "Duration": 50
   },
   {
     "SceneImage": "corridor5.jpg",
-    "Object": "Lawn Mower",
-    "consistency_category": "super",
+    "Object": "Crayons",
+    "consistency_category": "basic",
     "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 50
   },
   {
     "SceneImage": "dining3.jpg",
-    "Object": "Drinking Fountain",
+    "Object": "Projector",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
@@ -361,43 +361,43 @@ raw_stimuli = [
   },
   {
     "SceneImage": "dining5.jpg",
-    "Object": "Lily Pad",
+    "Object": "Subway Station Sign",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "Yes",
+    "Inverted": "No",
     "Duration": 150
   },
   {
     "SceneImage": "dining6.jpg",
-    "Object": "Teddy Bear",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
+    "Object": "Candle",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
     "Duration": 100
   },
   {
     "SceneImage": "dining7.jpg",
-    "Object": "Historical Plaque",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 150
+    "Object": "Spoon",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "dining8.jpg",
-    "Object": "Razor",
-    "consistency_category": "basic",
+    "Object": "Fire Hydrant",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "Yes",
+    "Inverted": "No",
     "Duration": 100
   },
   {
     "SceneImage": "elephant.jpg",
-    "Object": "Flag Pole",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 100
+    "Object": "Napkin",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 50
   },
   {
     "SceneImage": "fan.jpg",
@@ -405,7 +405,7 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 100
+    "Duration": 150
   },
   {
     "SceneImage": "farm1.jpg",
@@ -413,39 +413,39 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 50
+    "Duration": 150
   },
   {
     "SceneImage": "farm2.jpg",
-    "Object": "Subway Station Sign",
+    "Object": "Surfboard",
     "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "farm3.jpg",
+    "Object": "Scarecrow",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
+    "Duration": 100
+  },
+  {
+    "SceneImage": "farm4.jpg",
+    "Object": "TV Remote",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
   {
-    "SceneImage": "farm3.jpg",
-    "Object": "Tape Dispenser",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "farm4.jpg",
-    "Object": "Feeding Trough",
+    "SceneImage": "farm7.jpg",
+    "Object": "Tractor",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "farm7.jpg",
-    "Object": "Pedestrian Crosswalk Signal",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
     "Inverted": "Yes",
-    "Duration": 100
+    "Duration": 50
   },
   {
     "SceneImage": "fire_hydrant.jpg",
@@ -453,23 +453,23 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 150
+    "Duration": 50
   },
   {
     "SceneImage": "flowers.jpg",
-    "Object": "Picture Frame",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
+    "Object": "Speed Limit Sign",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
     "Duration": 50
   },
   {
     "SceneImage": "forest1.jpg",
-    "Object": "Notebook",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Object": "Toadstool Mushroom",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "forest11.jpg",
@@ -481,31 +481,31 @@ raw_stimuli = [
   },
   {
     "SceneImage": "forest14.jpg",
-    "Object": "Camping Tent",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
+    "Object": "Sculpture",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
     "Duration": 150
   },
   {
     "SceneImage": "forest2.jpg",
-    "Object": "Bird Nest",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "forest9.jpg",
-    "Object": "Wood-Splitting Axe",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Crosswalk Signal",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
     "Inverted": "Yes",
     "Duration": 50
   },
   {
+    "SceneImage": "forest9.jpg",
+    "Object": "Utility Pole",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
+  },
+  {
     "SceneImage": "fruit_bowl.jpg",
-    "Object": "Bathroom Sign",
+    "Object": "Exit Sign",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "No",
@@ -513,67 +513,67 @@ raw_stimuli = [
   },
   {
     "SceneImage": "glass.jpg",
-    "Object": "Projector Screen",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "highway10.jpg",
-    "Object": "Fishing Boat",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
+    "Object": "Toaster",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
     "Duration": 100
   },
   {
-    "SceneImage": "highway12.jpg",
-    "Object": "Bus",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "SceneImage": "highway10.jpg",
+    "Object": "Toadstool Mushroom",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
     "Inverted": "Yes",
-    "Duration": 150
+    "Duration": 50
+  },
+  {
+    "SceneImage": "highway12.jpg",
+    "Object": "Hay Bale",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "highway6.jpg",
-    "Object": "Road Work Sign",
+    "Object": "Speed Limit Sign",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
+    "Inverted": "No",
     "Duration": 100
   },
   {
     "SceneImage": "highway8.jpg",
-    "Object": "Laundry Hamper",
-    "consistency_category": "super",
+    "Object": "Scarecrow",
+    "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "No",
-    "Duration": 50
+    "Duration": 150
   },
   {
     "SceneImage": "highway9.jpg",
-    "Object": "Highway Exit Sign",
+    "Object": "Road Work Sign",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Inverted": "No",
+    "Duration": 150
   },
   {
     "SceneImage": "kitchen10.jpg",
-    "Object": "Bird Nest",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
+    "Object": "Rolling Pin",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 50
+    "Duration": 100
   },
   {
     "SceneImage": "kitchen13.jpg",
     "Object": "Stand Mixer",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 150
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "kitchen15.jpg",
@@ -589,69 +589,69 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 150
+    "Duration": 100
   },
   {
     "SceneImage": "kitchen17.jpg",
-    "Object": "Nightstand",
-    "consistency_category": "basic",
+    "Object": "Historic Plaque",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 50
   },
   {
     "SceneImage": "living13.jpg",
-    "Object": "Stand Mixer",
+    "Object": "Dresser",
     "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 100
+  },
+  {
+    "SceneImage": "living16.jpg",
+    "Object": "Sandbox",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "living17.jpg",
+    "Object": "Soap Bar",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "living6.jpg",
+    "Object": "Crosswalk",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "living9.jpg",
+    "Object": "Traffic Light",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 100
   },
   {
-    "SceneImage": "living16.jpg",
-    "Object": "Bird Bath",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "living17.jpg",
-    "Object": "Mail Collection Box",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "living6.jpg",
-    "Object": "Vase",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "living9.jpg",
-    "Object": "Ottoman",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 150
-  },
-  {
     "SceneImage": "MDS201.jpg",
-    "Object": "Oven Mitts",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
+    "Object": "Rock",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 150
+    "Duration": 50
   },
   {
     "SceneImage": "modern_livingroom.png",
-    "Object": "Feeding Trough",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
+    "Object": "Floor Lamp",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
     "Duration": 50
   },
@@ -660,40 +660,40 @@ raw_stimuli = [
     "Object": "Fishing Rod",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "Nature14.jpg",
-    "Object": "Phone Set",
+    "Object": "Napkin",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "No",
-    "Duration": 150
+    "Duration": 100
   },
   {
     "SceneImage": "Nature22.jpg",
-    "Object": "Wildflower",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "Nature36.jpg",
-    "Object": "Lily Pad",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Trash Bags",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 50
   },
   {
+    "SceneImage": "Nature36.jpg",
+    "Object": "Printer",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 100
+  },
+  {
     "SceneImage": "Nature40.jpg",
-    "Object": "Kayak",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 150
+    "Object": "Floor Lamp",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 50
   },
   {
     "SceneImage": "Nature47.jpg",
@@ -701,38 +701,38 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 150
   },
   {
     "SceneImage": "office1.jpg",
-    "Object": "Pan",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "office10.jpg",
-    "Object": "Apron",
+    "Object": "Rolling Pin",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
     "Duration": 150
   },
   {
+    "SceneImage": "office10.jpg",
+    "Object": "Tractor",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 150
+  },
+  {
     "SceneImage": "office4.jpg",
-    "Object": "Tape Dispenser",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Picnic Table",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 50
   },
   {
     "SceneImage": "office8.jpg",
-    "Object": "Ottoman",
-    "consistency_category": "basic",
+    "Object": "Bird Bath",
+    "consistency_category": "super",
     "Consistent": "Inconsistent",
-    "Inverted": "No",
+    "Inverted": "Yes",
     "Duration": 50
   },
   {
@@ -741,39 +741,39 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 100
   },
   {
     "SceneImage": "opencountry1.jpg",
-    "Object": "Backpack",
-    "consistency_category": "super",
+    "Object": "Newspaper Box",
+    "consistency_category": "basic",
     "Consistent": "Inconsistent",
-    "Inverted": "No",
+    "Inverted": "Yes",
     "Duration": 100
   },
   {
     "SceneImage": "opencountry2.jpg",
-    "Object": "City Fountain",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Object": "Farmhouse",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 150
   },
   {
     "SceneImage": "opencountry3.jpg",
-    "Object": "Beach Towel",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "opencountry5.jpg",
     "Object": "Broom",
     "consistency_category": "super",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
-    "Duration": 50
+    "Duration": 100
+  },
+  {
+    "SceneImage": "opencountry5.jpg",
+    "Object": "Candle",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "opencountry8.jpg",
@@ -781,71 +781,71 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 100
+    "Duration": 150
   },
   {
     "SceneImage": "plant_bathroom.png",
-    "Object": "Toothpaste",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 50
+    "Object": "Bicycle",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
   },
   {
     "SceneImage": "play10.jpg",
     "Object": "Picnic Table",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
+    "Inverted": "Yes",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "play12.jpg",
+    "Object": "Buoy",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "play2.jpg",
+    "Object": "Swing Set",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "play3.jpg",
+    "Object": "Sandbox",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "No",
     "Duration": 100
   },
   {
-    "SceneImage": "play12.jpg",
-    "Object": "Seesaw",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "SceneImage": "play5.jpg",
+    "Object": "Taxi",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
     "Inverted": "Yes",
     "Duration": 100
   },
   {
-    "SceneImage": "play2.jpg",
+    "SceneImage": "pond.png",
+    "Object": "Bus Stop Shelter",
+    "consistency_category": "basic",
+    "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 100
+  },
+  {
+    "SceneImage": "suburb1.jpg",
     "Object": "Log Cabin",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "play3.jpg",
-    "Object": "Radio Tower",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
     "Duration": 50
-  },
-  {
-    "SceneImage": "play5.jpg",
-    "Object": "Hay Bale",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "Yes",
-    "Duration": 150
-  },
-  {
-    "SceneImage": "pond.png",
-    "Object": "Birdhouse",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 50
-  },
-  {
-    "SceneImage": "suburb1.jpg",
-    "Object": "Lawn Mower",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 100
   },
   {
     "SceneImage": "suburb2.jpg",
@@ -853,59 +853,59 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "Yes",
-    "Duration": 100
+    "Duration": 50
   },
   {
     "SceneImage": "suburb3.jpg",
     "Object": "Fire Hydrant",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 50
   },
   {
     "SceneImage": "suburb4.jpg",
     "Object": "Crosswalk",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "Yes",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "suburb6.jpg",
-    "Object": "Paper Shredder",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
-  },
-  {
-    "SceneImage": "tan_kitchen.png",
-    "Object": "Crosswalk",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
     "Inverted": "No",
     "Duration": 150
   },
   {
-    "SceneImage": "Urban_Image_08.jpg",
-    "Object": "Wood-Splitting Axe",
+    "SceneImage": "suburb6.jpg",
+    "Object": "Utility Pole",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "tan_kitchen.png",
+    "Object": "Calculator",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
+    "Inverted": "No",
+    "Duration": 50
+  },
+  {
+    "SceneImage": "Urban_Image_08.jpg",
+    "Object": "Traffic Light",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "No",
+    "Duration": 150
+  },
+  {
+    "SceneImage": "Urban10.jpg",
+    "Object": "Bicycle",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
     "Inverted": "Yes",
     "Duration": 50
   },
   {
-    "SceneImage": "Urban10.jpg",
-    "Object": "Fishing Rod",
-    "consistency_category": "basic",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 150
-  },
-  {
     "SceneImage": "Urban14.jpg",
-    "Object": "Kayak",
+    "Object": "Fishing Boat",
     "consistency_category": "basic",
     "Consistent": "Inconsistent",
     "Inverted": "Yes",
@@ -913,31 +913,31 @@ raw_stimuli = [
   },
   {
     "SceneImage": "urbanstreet1.jpg",
-    "Object": "Birdhouse",
-    "consistency_category": "super",
-    "Consistent": "Inconsistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Object": "Newspaper Box",
+    "consistency_category": "consistent",
+    "Consistent": "Consistent",
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "urbanstreet12.jpg",
-    "Object": "Mail Collection Box",
-    "consistency_category": "consistent",
-    "Consistent": "Consistent",
+    "Object": "Teddy Bear",
+    "consistency_category": "super",
+    "Consistent": "Inconsistent",
     "Inverted": "No",
-    "Duration": 150
+    "Duration": 50
   },
   {
     "SceneImage": "urbanstreet19.jpg",
     "Object": "Subway Station Sign",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 50
   },
   {
     "SceneImage": "urbanstreet28.jpg",
-    "Object": "Pedestrian Crosswalk Signal",
+    "Object": "Crosswalk Signal",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
@@ -948,8 +948,8 @@ raw_stimuli = [
     "Object": "Bus Stop Shelter",
     "consistency_category": "consistent",
     "Consistent": "Consistent",
-    "Inverted": "No",
-    "Duration": 100
+    "Inverted": "Yes",
+    "Duration": 150
   },
   {
     "SceneImage": "wood_kitchen.png",
@@ -957,6 +957,6 @@ raw_stimuli = [
     "consistency_category": "consistent",
     "Consistent": "Consistent",
     "Inverted": "No",
-    "Duration": 100
+    "Duration": 50
   }
 ]

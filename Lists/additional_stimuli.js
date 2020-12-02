@@ -5,7 +5,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "orange.jpg",
@@ -13,7 +13,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "green.jpg",
@@ -21,7 +21,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "blue.jpg",
@@ -29,7 +29,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "gray.jpg",
@@ -37,7 +37,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "red.jpg",
@@ -45,7 +45,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "orange.jpg",
@@ -53,7 +53,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "green.jpg",
@@ -61,7 +61,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "blue.jpg",
@@ -69,7 +69,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   },
   {
     "SceneImage": "gray.jpg",
@@ -77,7 +77,7 @@ attention_checks = [
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
-    "Duration": 350
+    "Duration": 250
   }
 ]
 
