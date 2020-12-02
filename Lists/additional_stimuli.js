@@ -1,0 +1,94 @@
+attention_checks = [
+  {
+    "SceneImage": "red.jpg",
+    "Object": "Swimming Pool",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "orange.jpg",
+    "Object": "Golf Course",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "green.jpg",
+    "Object": "Skyscraper",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "blue.jpg",
+    "Object": "Mountain",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "gray.jpg",
+    "Object": "Pineapple",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "red.jpg",
+    "Object": "Banana",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "orange.jpg",
+    "Object": "Airplane",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "green.jpg",
+    "Object": "Fire Truck",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "blue.jpg",
+    "Object": "Apple",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  },
+  {
+    "SceneImage": "gray.jpg",
+    "Object": "Guitar",
+    "consistency_category": "AttentionCheck",
+    "Consistent": "AttentionCheck",
+    "Inverted": "No",
+    "Duration": 350
+  }
+]
+
+practice_stimuli = [
+    {
+      "SceneImage": "coffeemaker.jpg",
+      "Object": "Cutting Board",
+      "consistency_category": "Practice",
+      "Consistent": "Practice",
+      "Inverted": "No",
+      "Duration": 100,
+      "practice": "Yes"
+    }
+  ]

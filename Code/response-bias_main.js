@@ -1,5 +1,11 @@
 var timeline = [];
 
+var test_stimuli = jsPsych.randomization.repeat(raw_stimuli, 1);
+
+for (i = 0; i < attention_checks.length; i++) {
+  test_stimuli.splice(6+(13*i), 0, attention_checks[i])
+}
+
 var welcome = {
     type: "html-keyboard-response",
     stimulus: "<h3>Welcome to the experiment!</h3>" + 
@@ -27,7 +33,8 @@ var instr_fixation = {
     stimulus: "<p>(1) First, you will see a fixation cross, which looks like this:</p>" +
     '<div style="font-size:60px;">+</div>' + 
     "<p>Please keep your eyes on it while it's there!</p>" +
-    '<p><em>Press any key to continue.</em></p>',
+    '<p><em>Press "3" to continue.</em></p>',
+    choices: ['3'],
     data: {
         on_screen: 'instr_fixation'
     }
@@ -43,9 +50,10 @@ var instr_scene_image = {
         '" alt="' + 
         scene_image + 
         '" width="500" height=auto>' +
-        '<p><em>Press any key to continue.</em></p>'
+        '<p><em>Press "5" to continue.</em></p>'
     return html
     },
+    choices: ['5'],
     data: {on_screen: 'instr_scene_image', 
         SceneImage: jsPsych.timelineVariable('SceneImage')
     }
@@ -60,9 +68,10 @@ var instr_scene_image_inverted = {
         '" alt="' + 
         scene_image + 
         '" width="500" height=auto>' +
-        '<p><em>Press any key to continue.</em></p>'
+        '<p><em>Press "8" to continue.</em></p>'
     return html
     },
+    choices: ['8'],
     data: {
         on_screen: 'instr_scene_image_inverted', 
         SceneImage: jsPsych.timelineVariable('SceneImage')
@@ -72,7 +81,8 @@ var instr_mask = {
     type: "html-keyboard-response",
     stimulus: '<p>(3) After that, you will see a noisy "pattern" flash on the screen, like this:</p>' + 
         `<img src="https://alanzhihaolu.github.io/inverted-scenes/Images/NoiseMask/NoiseMask.png" alt="Noise Mask" width="500" height="375">` +
-        '<p><em>Press any key to continue.</em></p>',
+        '<p><em>Press "9" to continue.</em></p>',
+    choices: ['9'],
     data: {
         on_screen: 'instr_mask'
     }
@@ -107,7 +117,7 @@ var instr_end = {
 };
 var instructions = {
     timeline: [instr_fixation, instr_scene_image, instr_scene_image_inverted, instr_mask, instr_question, instr_end],
-    timeline_variables: [{SceneImage: "basketball_net.jpg", Object: "Microwave", Inverted: "No", Consistent: "Yes", practice: "Yes"}]
+    timeline_variables: practice_stimuli
 }
 timeline.push(instructions);
 
@@ -190,7 +200,7 @@ var question = {
 }
 var example_trial = {
     timeline: [fixation, scene_image, mask, question],
-    timeline_variables: [{SceneImage: "basketball_net.jpg", Object: "Microwave", Inverted: "No", Consistent: "Yes", Duration: 80, practice: "Yes"}]
+    timeline_variables: practice_stimuli
 }
 timeline.push(example_trial);
 
@@ -198,9 +208,10 @@ var practice_end = {
     type: "html-keyboard-response",
     stimulus: "<p>How was that?</p>" +
     "<p>As you can see, each trial is pretty short.</p>" +
-    "<p>Try not to lose focus, and please answer as accurately and as quickly as you can throughout the experiment.</p>" +
+    "<p>Try not to lose focus, and please answer quickly and as accurately as possible throughout the experiment.</p>" +
     "<p>Please note that, although speed is valued, <b>accuracy is most important.</b></p>" +
-    '<p><em>Press any key to continue.</em></p>',
+    '<p><em>Press "7" to acknowledge this message and continue to the main experiment.</em></p>',
+    choices: ['7'],
     data: {
         on_screen: 'practice_end'
     }

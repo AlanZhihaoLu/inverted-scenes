@@ -16,7 +16,8 @@ Qualtrics.SurveyEngine.addOnload(function()
     var requiredResources = [
         jslib_url + "jspsych.js",
         jslib_url + "plugins/jspsych-html-keyboard-response.js",
-        repo_site + "Lists/list.js",
+        repo_site + "Lists/rb01_conditionA.js",
+        repo_site + "Lists/additional_stimuli.js",
         repo_site + "Code/response-bias_main.js"
     ];
     function loadScript(idx) {
