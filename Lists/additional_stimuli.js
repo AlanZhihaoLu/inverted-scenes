@@ -84,7 +84,7 @@ attention_checks = [
 practice_stimuli = [
     {
       "SceneImage": "coffeemaker.jpg",
-      "Object": "Cutting Board",
+      "Object": "Microwave",
       "consistency_category": "Practice",
       "Consistent": "Practice",
       "Inverted": "No",
