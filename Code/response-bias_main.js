@@ -206,8 +206,8 @@ timeline.push(example_trial);
 
 var practice_end = {
     type: "html-keyboard-response",
-    stimulus: "<p>How was that?</p>" +
-    "<p>As you can see, each trial is pretty short.</p>" +
+    stimulus: "<p>How was that? As you can see, each trial is pretty short.</p>" +
+    "<p>In the main experiment, the next trial will start automatically as soon as you enter your response.</p>" +
     "<p>Try not to lose focus, and please answer quickly and as accurately as possible throughout the experiment.</p>" +
     "<p>Please note that, although speed is valued, <b>accuracy is most important.</b></p>" +
     '<p><em>Press "7" to acknowledge this message and continue to the main experiment.</em></p>',
@@ -220,7 +220,10 @@ timeline.push(practice_end);
 
 var start_note = {
     type: "html-keyboard-response",
-    stimulus: "<p>We will now begin the experiment.</p>" + "<p><em>Press any key to start.</em></p>",
+    stimulus: "<p>We will now begin the experiment.</p>" +
+    "<p>Remember to be as accurate as possible with your responses.</p>" + 
+    '<p><em>Press "1" to start the main experiment.</em></p>',
+    choices: ['1'],
     data: {
         on_screen: 'start_note'
     }
