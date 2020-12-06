@@ -46,7 +46,7 @@ corridor4.jpg,Exit Sign,Corridor,Public,Indoors
 corridor5.jpg,Fire Alarm,Corridor,Public,Indoors
 dining3.jpg,Plate,Dining Room,Private,Indoors
 dining5.jpg,Bowl,Dining Room,Private,Indoors
-dining6.jpg,Candle,Dining Room,Private,Indoors
+dining6.jpg,Tablecloth,Dining Room,Private,Indoors
 dining7.jpg,Spoon,Dining Room,Private,Indoors
 dining8.jpg,Fork,Dining Room,Private,Indoors
 elephant.jpg,Napkin,Dining Room,Private,Indoors
@@ -106,8 +106,8 @@ play3.jpg,Sandbox,Playground,Human,Outdoors
 play5.jpg,Soccer Ball,Playground,Human,Outdoors
 pond.png,Birdhouse,Suburban,Natural,Outdoors
 suburb1.jpg,Lawn Mower,Suburban,Human,Outdoors
-suburb2.jpg,Trash Bags,Suburban,Human,Outdoors
-suburb3.jpg,Fire Hydrant,Suburban,Human,Outdoors
+suburb2.jpg,Fire Hydrant,Suburban,Human,Outdoors
+suburb3.jpg,Mailbox,Suburban,Human,Outdoors
 suburb4.jpg,Crosswalk,Suburban,Human,Outdoors
 suburb6.jpg,Utility Pole,Suburban,Human,Outdoors
 tan_kitchen.png,Knife,Kitchen,Private,Indoors
