@@ -196,6 +196,9 @@ var question = {
     },
     on_finish: function(data){
         data.response = (jsPsych.pluginAPI.convertKeyCodeToKeyCharacter(data.key_press)==="1")?"Yes":"No";
+        fetch('https://inverted-scenes-rb01.herokuapp.com/rb01')
+        .then(response=>response.json())
+        .then(data=>console.log(data))
     }
 }
 var example_trial = {
