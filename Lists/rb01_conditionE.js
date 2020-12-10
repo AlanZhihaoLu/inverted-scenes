@@ -1,4 +1,4 @@
-raw_stimuli = [
+raw_stimul = [
   {
     "SceneImage": "basketball_net.jpg",
     "Object": "Bench",
