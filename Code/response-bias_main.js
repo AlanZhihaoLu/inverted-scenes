@@ -198,7 +198,7 @@ var question = {
         data.response = (jsPsych.pluginAPI.convertKeyCodeToKeyCharacter(data.key_press)==="1")?"Yes":"No";
         fetch('https://inverted-scenes-rb01.herokuapp.com/rb01')
         .then(response=>response.json())
-        .then(data=>console.log(data))
+        .then(resp=>console.log(resp))
     }
 }
 var example_trial = {
@@ -239,14 +239,22 @@ var procedure = {
 }
 timeline.push(procedure);
 
-// var end_note = {
-//     type: "html-keyboard-response",
-//     stimulus: "<p>You have completed the experiment. Thank you!</p>",
-//     data: {
-//         on_screen: 'end_note'
-//     }
-// }
-// timeline.push(end_note);
+var end_note = {
+    type: "html-keyboard-response",
+    stimulus: "<p><b>DO NOT EXIT THE EXPERIMENT.<br>" +
+    "Please wait - the experiment will continue in 10 seconds.</b></p>",
+    choices: jsPsych.NO_KEYS,
+    trial_duration: 10000,
+    data: {
+        on_screen: 'end_note'
+    },
+    on_start: function(){
+        fetch('https://inverted-scenes-rb01.herokuapp.com/rb01')
+        .then(response=>response.json())
+        .then(resp=>console.log(resp))
+    }
+}
+timeline.push(end_note);
 
 var images = ['https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg', 
 "https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/coffeemaker.jpg",
