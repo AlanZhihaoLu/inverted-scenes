@@ -239,14 +239,14 @@ var procedure = {
 }
 timeline.push(procedure);
 
-var end_note = {
-    type: "html-keyboard-response",
-    stimulus: "<p>You have completed the experiment. Thank you!</p>",
-    data: {
-        on_screen: 'end_note'
-    }
-}
-timeline.push(end_note);
+// var end_note = {
+//     type: "html-keyboard-response",
+//     stimulus: "<p>You have completed the experiment. Thank you!</p>",
+//     data: {
+//         on_screen: 'end_note'
+//     }
+// }
+// timeline.push(end_note);
 
 var images = ['https://alanzhihaolu.github.io/inverted-scenes/Images/noise_mask/NoiseMask.jpg', 
 "https://alanzhihaolu.github.io/inverted-scenes/Images/test_stimuli/coffeemaker.jpg",
