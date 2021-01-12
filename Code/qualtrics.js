@@ -10,13 +10,15 @@ Qualtrics.SurveyEngine.addOnload(function()
     /* Change 3: Defining and load required resources */
     var jslib_url = "https://alanzhihaolu.github.io/jsPsych/";
     var repo_site = "https://alanzhihaolu.github.io/inverted-scenes/"
+    // test_condition must be a .js file
+    var test_condition = "rb01_conditionA"
 
     // the below urls must be accessible with your browser
     // for example, https://kywch.github.io/jsPsych/jspsych.js
     var requiredResources = [
         jslib_url + "jspsych.js",
         jslib_url + "plugins/jspsych-html-keyboard-response.js",
-        repo_site + "Lists/rb01_conditionA.js",
+        repo_site + "Lists/" + test_condition + ".js",
         repo_site + "Lists/additional_stimuli.js",
         repo_site + "Code/response-bias_main.js"
     ];
@@ -47,7 +49,7 @@ Qualtrics.SurveyEngine.addOnload(function()
 
             /* Change 6: Adding the clean up and continue functions.*/
             on_finish: function (data) {
-                jsPsych.data.addProperties({sbj_id: sbj_id});
+                jsPsych.data.addProperties({sbj_id: sbj_id, test_condition: test_condition});
                 save_data_json();
                 // clear the stage
                 jQuery('#display_stage').remove();
