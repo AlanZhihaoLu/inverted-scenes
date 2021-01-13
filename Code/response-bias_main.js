@@ -90,12 +90,12 @@ var instr_mask = {
 var instr_question = {
     type: 'html-keyboard-response',
     stimulus: function(){
-        var html = "<p>(4) Finally, a word describing an object will appear on the screen. In this case, the word is <b>" + jsPsych.timelineVariable('Object', true) + "</b>.<br>" +
+        var html = "<p>(4) Finally, a word describing an object will appear on the screen. In this case, the word is <b>" + jsPsych.timelineVariable('probe', true) + "</b>.<br>" +
         "Please use your keyboard to answer whether the object was present in the scene image shown in (2).<br>" + 
         'If you think the object was present in the scene image, press "1".<br>' +
         'Otherwise, if you think the object was not present in the scene image, press "2".<br>' +
         "Don't worry if you aren't able to tell for sure! Just make your best guess.</p><br>" +
-        '<h1>' + jsPsych.timelineVariable('Object', true) + '</h1><br><br>' +
+        '<h1>' + jsPsych.timelineVariable('probe', true) + '</h1><br><br>' +
         '<h3>"yes" or "no"<br>1 &nbsp; &nbsp; or &nbsp; &nbsp;2</h3><br><br>' +
         '<p><em>Press "1" or "2" to continue.</em></p>'
         return html
@@ -103,7 +103,7 @@ var instr_question = {
     choices: ['1', '2'],
     data: {
         on_screen: 'instr_question', 
-        Object: jsPsych.timelineVariable('Object')
+        probe: jsPsych.timelineVariable('probe')
     }
 }
 var instr_end = {
@@ -154,7 +154,7 @@ var scene_image = {
           practice: (jsPsych.timelineVariable('practice',true)==="Yes")?'Yes':'No',
           exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_scene_image':'main_trial_scene_image',
           SceneImage: jsPsych.timelineVariable('SceneImage'),
-          Object: jsPsych.timelineVariable('Object'),
+          probe: jsPsych.timelineVariable('probe'),
           Inverted: jsPsych.timelineVariable('Inverted'),
           Consistent: jsPsych.timelineVariable('Consistent'),
           Duration: jsPsych.timelineVariable('Duration')
@@ -177,7 +177,7 @@ var mask = {
 var question = {
     type: 'html-keyboard-response',
     stimulus: function(){
-        var html = '<br><br><h1>' + jsPsych.timelineVariable('Object', true) + '</h1><br><br>' +
+        var html = '<br><br><h1>' + jsPsych.timelineVariable('probe', true) + '</h1><br><br>' +
         '<h3>"yes" or "no"<br>1 &nbsp; &nbsp; or &nbsp; &nbsp;2</h3><br><br>'
         return html
     },
@@ -188,7 +188,7 @@ var question = {
           practice: (jsPsych.timelineVariable('practice',true)==="Yes")?'Yes':'No',
           exp_stage: (jsPsych.timelineVariable('practice',true)==="Yes")?'practice_trial_question':'main_trial_question',
           SceneImage: jsPsych.timelineVariable('SceneImage'),
-          Object: jsPsych.timelineVariable('Object'),
+          probe: jsPsych.timelineVariable('probe'),
           Inverted: jsPsych.timelineVariable('Inverted'),
           Consistent: jsPsych.timelineVariable('Consistent'),
           Duration: jsPsych.timelineVariable('Duration')

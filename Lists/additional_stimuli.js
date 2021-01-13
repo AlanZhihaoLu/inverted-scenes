@@ -1,7 +1,7 @@
 attention_checks = [
   {
     "SceneImage": "red.jpg",
-    "Object": "Swimming Pool",
+    "probe": "Swimming Pool",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -9,7 +9,7 @@ attention_checks = [
   },
   {
     "SceneImage": "orange.jpg",
-    "Object": "Golf Course",
+    "probe": "Golf Course",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -17,7 +17,7 @@ attention_checks = [
   },
   {
     "SceneImage": "green.jpg",
-    "Object": "Skyscraper",
+    "probe": "Skyscraper",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -25,7 +25,7 @@ attention_checks = [
   },
   {
     "SceneImage": "blue.jpg",
-    "Object": "Mountain",
+    "probe": "Mountain",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -33,7 +33,7 @@ attention_checks = [
   },
   {
     "SceneImage": "gray.jpg",
-    "Object": "Pineapple",
+    "probe": "Pineapple",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -41,7 +41,7 @@ attention_checks = [
   },
   {
     "SceneImage": "red.jpg",
-    "Object": "Banana",
+    "probe": "Banana",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -49,7 +49,7 @@ attention_checks = [
   },
   {
     "SceneImage": "orange.jpg",
-    "Object": "Airplane",
+    "probe": "Airplane",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -57,7 +57,7 @@ attention_checks = [
   },
   {
     "SceneImage": "green.jpg",
-    "Object": "Fire Truck",
+    "probe": "Fire Truck",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -65,7 +65,7 @@ attention_checks = [
   },
   {
     "SceneImage": "blue.jpg",
-    "Object": "Apple",
+    "probe": "Apple",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -73,7 +73,7 @@ attention_checks = [
   },
   {
     "SceneImage": "gray.jpg",
-    "Object": "Guitar",
+    "probe": "Guitar",
     "consistency_category": "AttentionCheck",
     "Consistent": "AttentionCheck",
     "Inverted": "No",
@@ -84,7 +84,7 @@ attention_checks = [
 practice_stimuli = [
     {
       "SceneImage": "coffeemaker.jpg",
-      "Object": "Microwave",
+      "probe": "Microwave",
       "consistency_category": "Practice",
       "Consistent": "Practice",
       "Inverted": "No",
