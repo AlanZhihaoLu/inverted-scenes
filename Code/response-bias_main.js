@@ -1,6 +1,8 @@
 var timeline = [];
 
-var test_stimuli = jsPsych.randomization.repeat(raw_stimuli, 1);
+// var test_stimuli = jsPsych.randomization.repeat(raw_stimuli, 1);
+
+var test_stimuli = raw_stimuli;
 
 for (i = 0; i < attention_checks.length; i++) {
   test_stimuli.splice(6+(13*i), 0, attention_checks[i])
