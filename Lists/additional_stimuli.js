@@ -88,7 +88,7 @@ practice_stimuli = [
       "consistency_category": "Practice",
       "Consistent": "Practice",
       "Inverted": "No",
-      "Duration": 100,
+      "Duration": 150,
       "practice": "Yes"
     }
   ]
