@@ -7,7 +7,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Bird Bath"
@@ -20,7 +20,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Corridor",
     "probe": "Bathroom Sign"
@@ -33,7 +33,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Bathroom",
     "probe": "Slippers"
@@ -46,7 +46,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Birdhouse"
@@ -59,7 +59,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Bathroom",
     "probe": "Plunger"
@@ -72,7 +72,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "Coffee Maker"
@@ -85,7 +85,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Coast",
     "probe": "Surfboard"
@@ -98,7 +98,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Office",
     "probe": "Paper Shredder"
@@ -111,7 +111,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Farm",
     "probe": "Wheelbarrow"
@@ -124,7 +124,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Living Room",
     "probe": "Picture Frame"
@@ -137,7 +137,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Farm",
     "probe": "Scarecrow"
@@ -150,7 +150,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Bedroom",
     "probe": "Teddy Bear"
@@ -163,7 +163,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Open Country",
     "probe": "Farmhouse"
@@ -176,7 +176,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "DVD Player"
@@ -189,7 +189,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Forest",
     "probe": "Axe"
@@ -202,7 +202,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "City Center",
     "probe": "Taxi"
@@ -215,7 +215,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Urban Street",
     "probe": "Subway Station Sign"
@@ -228,7 +228,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Toadstool Mushroom"
@@ -241,7 +241,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Playground",
     "probe": "Seesaw"
@@ -254,7 +254,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "City Center",
     "probe": "Horse Carriage"
@@ -267,7 +267,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Bedroom",
     "probe": "Alarm Clock"
@@ -280,7 +280,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Forest",
     "probe": "Bird Nest"
@@ -293,7 +293,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Office",
     "probe": "Calculator"
@@ -306,7 +306,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Coast",
     "probe": "Beach Towel"
@@ -319,7 +319,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Living Room",
     "probe": "Armchair Recliner"
@@ -332,7 +332,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Forest",
     "probe": "Log Cabin"
@@ -345,7 +345,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Conference Room",
     "probe": "Projector Screen"
@@ -358,7 +358,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Coast",
     "probe": "Lifeguard Tower"
@@ -371,7 +371,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Suburban",
     "probe": "Crosswalk"
@@ -384,7 +384,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Corridor",
     "probe": "Drinking Fountain"
@@ -397,7 +397,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Coast",
     "probe": "Buoy"
@@ -410,7 +410,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Classroom",
     "probe": "Textbook"
@@ -423,7 +423,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Mailbox"
@@ -436,7 +436,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Playground",
     "probe": "Bench"
@@ -449,7 +449,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Fire Hydrant"
@@ -462,7 +462,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Dining Room",
     "probe": "Spoon"
@@ -475,7 +475,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Playground",
     "probe": "Soccer Ball"
@@ -488,7 +488,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "City Center",
     "probe": "Statue"
@@ -501,7 +501,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Conference Room",
     "probe": "Laptop"
@@ -514,7 +514,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Urban Street",
     "probe": "Crosswalk Signal"
@@ -527,7 +527,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Corridor",
     "probe": "Fire Alarm"
@@ -540,7 +540,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Bathroom",
     "probe": "Toilet Paper"
@@ -553,7 +553,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Corridor",
     "probe": "Exit Sign"
@@ -566,7 +566,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "City Center",
     "probe": "Historic Plaque"
@@ -579,7 +579,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Dining Room",
     "probe": "Tablecloth"
@@ -592,7 +592,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Bedroom",
     "probe": "Nightstand"
@@ -605,7 +605,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Open Country",
     "probe": "Radio Tower"
@@ -618,7 +618,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Fishing Rod"
@@ -631,7 +631,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Office",
     "probe": "Pencil Holder"
@@ -644,7 +644,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "Rocking Chair"
@@ -657,7 +657,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Dining Room",
     "probe": "Fork"
@@ -670,7 +670,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Highway",
     "probe": "Billboard"
@@ -683,7 +683,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Coast",
     "probe": "Fishing Boat"
@@ -696,7 +696,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Bedroom",
     "probe": "Dresser"
@@ -709,7 +709,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Kitchen",
     "probe": "Rolling Pin"
@@ -722,7 +722,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Open Country",
     "probe": "Pitchfork"
@@ -735,7 +735,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Camping Tent"
@@ -748,7 +748,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Living Room",
     "probe": "Television"
@@ -761,7 +761,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Conference Room",
     "probe": "Phone Set"
@@ -774,7 +774,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "City Center",
     "probe": "Souvenir Stand"
@@ -787,7 +787,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Dining Room",
     "probe": "Bowl"
@@ -800,7 +800,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Open Country",
     "probe": "Fence"
@@ -813,7 +813,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Office",
     "probe": "Stapler"
@@ -826,7 +826,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Urban Street",
     "probe": "Stop Sign"
@@ -839,7 +839,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Classroom",
     "probe": "Backpack"
@@ -852,7 +852,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Office",
     "probe": "Printer"
@@ -865,7 +865,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Classroom",
     "probe": "Pencil Case"
@@ -878,7 +878,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Highway",
     "probe": "Motorcycle"
@@ -891,7 +891,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Bathroom",
     "probe": "Shower Head"
@@ -904,7 +904,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Pan"
@@ -917,7 +917,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Utility Pole"
@@ -930,7 +930,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Knife"
@@ -943,7 +943,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "Floor Lamp"
@@ -956,7 +956,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Office",
     "probe": "Tape Dispenser"
@@ -969,7 +969,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Urban Street",
     "probe": "Bus Stop Shelter"
@@ -982,7 +982,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Suburban",
     "probe": "Traffic Light"
@@ -995,7 +995,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "TV Remote"
@@ -1008,7 +1008,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "City Center",
     "probe": "Flag Pole"
@@ -1021,7 +1021,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Apron"
@@ -1034,7 +1034,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Conference Room",
     "probe": "Projector"
@@ -1047,7 +1047,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Corridor",
     "probe": "Fire Extinguisher"
@@ -1060,7 +1060,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Bedroom",
     "probe": "Comforter Blanket"
@@ -1073,7 +1073,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Kitchen",
     "probe": "Broom"
@@ -1086,7 +1086,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Bathroom",
     "probe": "Razor"
@@ -1099,7 +1099,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Wild Berries"
@@ -1112,7 +1112,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Highway",
     "probe": "Speed Limit Sign"
@@ -1125,7 +1125,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Lawn Mower"
@@ -1138,7 +1138,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Urban Street",
     "probe": "Newspaper Box"
@@ -1151,7 +1151,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Playground",
     "probe": "Picnic Table"
@@ -1164,7 +1164,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Highway",
     "probe": "Yield Sign"
@@ -1177,7 +1177,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Dining Room",
     "probe": "Plate"
@@ -1190,7 +1190,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Blender"
@@ -1203,7 +1203,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Classroom",
     "probe": "Crayons"
@@ -1216,7 +1216,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Baking Tray"
@@ -1229,7 +1229,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Conference Room",
     "probe": "Briefcase"
@@ -1242,7 +1242,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Lily Pad"
@@ -1255,7 +1255,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Bathroom",
     "probe": "Soap Bar"
@@ -1268,7 +1268,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Playground",
     "probe": "Sandbox"
@@ -1281,7 +1281,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Stand Mixer"
@@ -1294,7 +1294,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Farm",
     "probe": "Feeding Trough"
@@ -1307,7 +1307,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Playground",
     "probe": "Swing Set"
@@ -1320,7 +1320,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Dining Room",
     "probe": "Napkin"
@@ -1333,7 +1333,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Bedroom",
     "probe": "Laundry Hamper"
@@ -1346,7 +1346,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Consistent",
     "probe_cat": "Living Room",
     "probe": "Vase"
@@ -1359,7 +1359,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Coast",
     "probe": "Lighthouse"
@@ -1372,7 +1372,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Wildflower"
@@ -1385,7 +1385,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Highway",
     "probe": "Road Work Sign"
@@ -1398,7 +1398,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 100,
+    "Duration": 400,
     "Consistent": "Inconsistent",
     "probe_cat": "Forest",
     "probe": "Rock"
@@ -1411,7 +1411,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Consistent",
     "probe_cat": "Kitchen",
     "probe": "Oven Mitts"
@@ -1424,7 +1424,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Classroom",
     "probe": "Notebook"
@@ -1437,7 +1437,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Living Room",
     "probe": "Ottoman"
@@ -1450,7 +1450,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Farm",
     "probe": "Hay Bale"
@@ -1463,7 +1463,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Suburban",
     "probe": "Parking Meter"
@@ -1476,7 +1476,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Forest",
     "probe": "Kayak"
@@ -1489,7 +1489,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Farm",
     "probe": "Tractor"
@@ -1502,7 +1502,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig2",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Consistent",
     "probe_cat": "Office",
     "probe": "Sticky Notes"
@@ -1515,7 +1515,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Open Country",
     "probe": "Windmill"
@@ -1528,7 +1528,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Urban Street",
     "probe": "Telephone Booth"
@@ -1541,7 +1541,7 @@ raw_stimuli = [
     "InOut": "Outdoors",
     "group_labels": "og1",
     "Inverted": "Yes",
-    "Duration": 50,
+    "Duration": 150,
     "Consistent": "Inconsistent",
     "probe_cat": "Kitchen",
     "probe": "Toaster"
@@ -1554,7 +1554,7 @@ raw_stimuli = [
     "InOut": "Indoors",
     "group_labels": "ig1",
     "Inverted": "No",
-    "Duration": 80,
+    "Duration": 250,
     "Consistent": "Inconsistent",
     "probe_cat": "Suburban",
     "probe": "Bicycle"
